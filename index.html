@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Giphy App</title>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+     <!-- Adobe Typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/fev4asl.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <br>
+
+      <!-- Jumbotron Title -->
+      <div class="jumbotron">
+        <h1 class="text-center"><i class="fa fa-picture-o" aria-hidden="true"></i> Giphy!</h1>
+        <h4 class="text-center">Select a button to display images and click on them animate them</h4>
+        <form class="text-center"><label>Add a Topic <input type="text" id="addInput"></label>
+        <button id="addButton">Add</button>
+      </form>
+      </div>
+
+       <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <div class="row m-4">
+                  <div class="col text-center" id="buttons-view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron">
+        <div class="container">                                                
+         <div id="gifs-appear-here">
+      </div>
+      </div>
+
+   <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootsrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+
+    <!-- Font Awesome 5 -->
+    <script src="https://use.fontawesome.com/0e0787515a.js"></script>
+
+     <!-- Adobe Typekit script -->
+     <script type="text/javascript" src="https://use.typekit.net/fev4asl.css"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+  </body>
+
+</html>
